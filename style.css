@@ -1,0 +1,59 @@
+html {
+    background-color: rgb(247, 247, 247);
+}
+
+.todo-app {
+	width: 400px;
+	min-height: 300px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 50px;
+
+	font-family: "Segoe UI";
+}
+
+.input {
+	width: 99%;
+	height: 20px;
+	font-size: larger;
+	padding: 10px;
+    border: none;
+    box-shadow: inset 1px 1px 3px 0px #5a5a5a;
+    outline: none;
+}
+
+.todo{ 
+    width: 96%;
+    height: 40px;
+    background: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 6px;
+    line-height: 40px;
+    color: black;
+    box-shadow: 1px 1px 2px 0px rgb(103, 132, 103);
+ }
+
+ .completed {
+         background: #85e485;
+ }
+
+ .done {
+ 	cursor: pointer;
+ 	float: right;
+ 	width: 20%;
+ 	text-align: center;
+ }
+
+  .done:before {
+ 	content: "("
+ }
+
+   .done:after {
+ 	content: ")"
+ }
+
+ .done:hover {
+ 	background-color: whitesmoke;
+ }
+

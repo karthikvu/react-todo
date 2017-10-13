@@ -1,0 +1,24 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "A Simple TO-DO App using ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "keywords": [
+    "react",
+    "todo"
+  ],
+  "author": "Karthik",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
